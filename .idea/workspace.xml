@@ -4,12 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="368548b2-46ec-4fbd-ae47-a9672c0ee23a" name="Changes" comment="" />
+    <list default="true" id="368548b2-46ec-4fbd-ae47-a9672c0ee23a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PricePalBE/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/postgres/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/postgres/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/src/main/java/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/src/main/java/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/src/main/java/dto/ItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/src/main/java/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/src/main/java/mapper/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/src/main/java/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalBE/src/main/java/service/ItemFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PricePalFE/proxy.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PricePalBE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PricePalBE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PricePalBE/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PricePalBE/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PricePalFE" beforeDir="false" afterPath="$PROJECT_DIR$/PricePalFE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PricePalFE/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PricePalFE/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PricePalFE/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -27,10 +65,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.PricePalBE.postgres: Compose Deployment.executor": "Run",
+    "Docker.PricePalBE: Compose Deployment.executor": "Run",
+    "HTTP Request.generated-requests | #4.executor": "Run",
+    "JUnit.ItemControllerTest.testFetchAllItems.executor": "Run",
+    "Maven.PricePalBE [clean].executor": "Run",
+    "Maven.PricePalBE [compile].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.PricepalApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/danmirag/IdeaProjects/pricepal",
+    "last_opened_file_path": "/Users/danmirag/IdeaProjects/PricePal",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -38,9 +89,45 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/PricePalBE" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PricepalApplication">
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemControllerTest.testFetchAllItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PricePalBE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.ItemControllerTest" />
+      <option name="METHOD_NAME" value="testFetchAllItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="pricepal" />
       <method v="2">
@@ -61,6 +148,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PricePalBE: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="PricePalBE/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="PricePalBE.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="PricePalBE/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ItemControllerTest.testFetchAllItems" />
+        <item itemvalue="Docker.PricePalBE: Compose Deployment" />
+        <item itemvalue="Docker.PricePalBE.postgres: Compose Deployment" />
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -80,10 +202,44 @@
       <updated>1718180131316</updated>
       <workItem from="1718180132676" duration="260000" />
       <workItem from="1718180583343" duration="663000" />
+      <workItem from="1718181263015" duration="8725000" />
+      <workItem from="1718288549226" duration="4906000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PricePalBE/src/main/java/service/ItemFacade.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PricePalBE/src/main/java/controller/ItemController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PricePalBE/src/main/java/controller/HelloController.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

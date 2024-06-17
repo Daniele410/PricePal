@@ -13,17 +13,17 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping("/api")
+@RequestMapping("api/items")
 @AllArgsConstructor
 public class ItemController {
 
 
     private final ItemFacade itemFacade;
 
-    @GetMapping("/items")
+    @GetMapping
     public ResponseEntity<List<ItemDto>> fetchAllItems() {
         log.info("Fetching all items");
-        return ResponseEntity.ok(itemFacade.fetchAllItems());
+        return ResponseEntity.ok(this.itemFacade.fetchAllItems());
     }
 
 }

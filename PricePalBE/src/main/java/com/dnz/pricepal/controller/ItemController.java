@@ -1,13 +1,14 @@
 package com.dnz.pricepal.controller;
 
 import com.dnz.pricepal.dto.ItemDto;
-import com.dnz.pricepal.service.ItemFacade;
+import com.dnz.pricepal.entity.Item;
+import com.dnz.pricepal.service.IItemFacade;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 
 import java.util.List;
 
@@ -18,12 +19,18 @@ import java.util.List;
 public class ItemController {
 
 
-    private final ItemFacade itemFacade;
+    private final IItemFacade iItemFacade;
 
     @GetMapping
-    public ResponseEntity<List<ItemDto>> fetchAllItems() {
+    public ResponseEntity<List<ItemDto>> fetchAllItems(Pageable pageable) {
         log.info("Fetching all items");
-        return ResponseEntity.ok(this.itemFacade.fetchAllItems());
+        return ResponseEntity.ok(iItemFacade.fetchAllItems(pageable));
+    }
+
+    @PostMapping
+    public ResponseEntity<Item> saveItem(@RequestBody ItemDto itemDto) {
+        log.info("Saving item");
+        return ResponseEntity.ok(this.iItemFacade.saveItem(itemDto));
     }
 
 }
